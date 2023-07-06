@@ -133,7 +133,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"subcurrency.sol": "coin"
+			"cryptocurrency.sol": "coin"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -147,12 +147,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"subcurrency.sol": {
-			"keccak256": "0x259759f3a874c0769f9598e94a07afd2021c408f4cdd39507fcfac5946670bca",
+		"cryptocurrency.sol": {
+			"keccak256": "0xd5882a11be7a64fd26fdad37782d5ab578eb8a740c9bc1cc3d4918257c6b8125",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cdc7b357fbed51ff2da3762bc479141860dbd1b597c1000f6289ad3dfe26c3b8",
-				"dweb:/ipfs/QmaWVZGRRzxA56UubUnPrAkeiGhv88vXE5iV9PAwYs7zQv"
+				"bzz-raw://03b1e09f06da9d2f98f05c26fe579167cf2022fa4d66c6e0e7b51324bfdbd0f9",
+				"dweb:/ipfs/QmQumVWWDjYjPgQBX1ZHjjwCSBpe2Ne8fGDiajH3XwVQy7"
 			]
 		}
 	},
