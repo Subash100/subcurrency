@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "returnFunds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"withdrawal-pattern-intro.sol": "withdrwal"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"withdrawal-pattern-intro.sol": {
+			"keccak256": "0x6d3b15770b423ce6475cd572246f9b20ec414aea1a803fee69462c58a54abfb3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://99613be1dc81e5aa3147f54972cd7ab68ba1ce7ea7b32b8872510a59e4f72333",
+				"dweb:/ipfs/QmeU9jwkwH9ToUMQQb6DfuK5r57y415tnm4kutjb8FKPE2"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isItAContract",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"withdrawal-pattern-intro.sol": "Victim"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"withdrawal-pattern-intro.sol": {
+			"keccak256": "0x65fee8b85473fa70769244ec5306db180c3f4df20acafbcb7d3d9910a474c2e4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://aca1be13022551feb97b9a97f4296992869fdee3038e31c07138b384a558f0f1",
+				"dweb:/ipfs/QmWDmfyGSgo1RvZkyMmq1uhZQ3E3VcDyWbMF4Xt8GAs6LY"
+			]
+		}
+	},
+	"version": 1
+}
