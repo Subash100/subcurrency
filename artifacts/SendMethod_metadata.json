@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawFunds",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"withdrawalPattern2.sol": "SendMethod"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"withdrawalPattern2.sol": {
+			"keccak256": "0x51fb0be49de3b7de56cddaf671c075593c7528cfd4628661e95034830fbbf8e0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://847cb5ab0ec826d59f406e8b924d2b37db0dde74d36414395516747cc8157e6d",
+				"dweb:/ipfs/QmZuAXLWW4hkXf5VfonQ91xtGpoR54DPBPznB5wNjKo1Mp"
+			]
+		}
+	},
+	"version": 1
+}
