@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "returnAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"abstract-contract.sol": "Teacher"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"abstract-contract.sol": {
+			"keccak256": "0x692333f39ae5a85c03fc5302b59b13cf9f1f9254139b1662b103b09c7672eb77",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d18b88009e9afbc3921b9c9e2fb417d11f6b9e96f812dc1d24d8b503d0bb8534",
+				"dweb:/ipfs/QmTk2FhFN5gSkrSjLiL6TZ5vLmvE4fREXPJFkiMJj1LePT"
+			]
+		}
+	},
+	"version": 1
+}
