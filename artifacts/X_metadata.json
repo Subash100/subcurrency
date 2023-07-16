@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "y",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"abstract-contract.sol": "X"
+			"advance-interafaces.sol": "X"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"abstract-contract.sol": {
-			"keccak256": "0x692333f39ae5a85c03fc5302b59b13cf9f1f9254139b1662b103b09c7672eb77",
+		"advance-interafaces.sol": {
+			"keccak256": "0xa21344532deb933098898af03130925af333fdd5836bca7934f73ccbb73d422d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d18b88009e9afbc3921b9c9e2fb417d11f6b9e96f812dc1d24d8b503d0bb8534",
-				"dweb:/ipfs/QmTk2FhFN5gSkrSjLiL6TZ5vLmvE4fREXPJFkiMJj1LePT"
+				"bzz-raw://9b1ee7da7467bb7cada3e6ae8152c0add47cd4c751121aadeceb292f29cedd57",
+				"dweb:/ipfs/QmdopjqixQaNQ4RT1KxRzDPRZq8VAqyfzHxSYPmhG23G1h"
 			]
 		}
 	},
