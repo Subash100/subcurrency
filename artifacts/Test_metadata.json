@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"abstract-calculator.sol": "Test"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"abstract-calculator.sol": {
+			"keccak256": "0x6ccb2eae0625269a7d494c34943ddbff47e3ffa26dddec710b67d87dc5bdee77",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5e8c6f96bfd917842f7bb33e9068e063a4df676e63b17f6fb2ffc55f4a31f8e6",
+				"dweb:/ipfs/Qmbwt7Kj3MGL67T65CMbqA5Ds3B38sAKhrnosPrY8nsx8u"
+			]
+		}
+	},
+	"version": 1
+}
