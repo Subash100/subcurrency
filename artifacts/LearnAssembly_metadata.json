@@ -24,6 +24,13 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addToEVM3",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -54,11 +61,11 @@
 	},
 	"sources": {
 		"advance-assembly.sol": {
-			"keccak256": "0x14c60c21df3a3548f45da20d82757fb4963f127d9963bd93f51f62ddd52608ac",
+			"keccak256": "0x3261e24ffe707fcdce65f6d2471e671763c9752ddf98b9a66bfe389521ff6ca2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0774a945d12800dce611221db5c45c1214552a9fb5dc0989f5c6d46096b3c7fa",
-				"dweb:/ipfs/QmVyBHKQzwMBnidGctEgcsn9ErK2tPBCK3pcE99ZS7YcMA"
+				"bzz-raw://a911c7841bda07d3d6ca0572bfd29fd5e951718d035c921fb810d6bb88beff30",
+				"dweb:/ipfs/QmbsSGtkPBMnjocBs4RguQBr9s5jGtfDbuuVFiY2Qdnero"
 			]
 		}
 	},

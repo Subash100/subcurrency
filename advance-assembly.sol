@@ -61,6 +61,34 @@ contract LearnAssembly
         if(size>0){return true;}else{return false;}
       }
     
+    /*
+    EXERCISE:
+
+    the function addToEVM3 is attempting to convert data bytes
+    It wants to convert using solidity a data byte into a fixed bytes size
+    however if you run the code way it is then it will not compile sucessfully because
+    explicitily type conversions are not allowed from bytes memory to bytes32
+
+    use assembly and mload to convet the data to bytes32 successfully. Hint: Bytes in memory
+    size starts at second slot so we need to bring in the add 32 to start at correct position.
+    */
     
-    
+    function addToEVM3() external view
+    {
+        
+        bytes memory data = new bytes(10);
+
+        //we cannot convert this into in a fixed size
+             //bytes32 dataB32= bytes32(data);
+
+
+        // but if we only care about the first 32 bytes we can use assembly! :)
+         bytes32 dataB32;
+        assembly
+        {
+            //bytes in memory is size so data actually starts at second slot
+            dataB32:=mload(add(data,32))
+            //operation add and we add 32bytes so we fill the first slot
+        }
+    }
 }
