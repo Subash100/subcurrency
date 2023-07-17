@@ -6,14 +6,15 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getReserveToken",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
+						"internalType": "address",
+						"name": "_counter",
+						"type": "address"
+					}
+				],
+				"name": "getcont",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -21,6 +22,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_counter",
+						"type": "address"
+					}
+				],
+				"name": "incrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -37,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"advance-interface2.sol": "MyContract"
+			"advance-interafaces.sol": "MyContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -51,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"advance-interface2.sol": {
-			"keccak256": "0x3c1ce3ea5eee99653f7cbe692f03fe7f9a35a192fabdafb5be0a6bf27a5eb0ad",
+		"advance-interafaces.sol": {
+			"keccak256": "0xa79ccc1483f796e2921d61bb27a24e84b7ef163a8f7697dc0aa5f5340f4ca23f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://855cb1fb8c3f72ba5daae002ae952a3cd2b4174af8ba4ff8a8d625375bae56d0",
-				"dweb:/ipfs/QmeG3ycfsEwGRLZx1xipFarydVhdXtGx932X9uj6vJMs7Y"
+				"bzz-raw://6f18eb190b942adf0bf135e9165ccca2bef94f189c5f952eefdfd0a328a320d6",
+				"dweb:/ipfs/QmbCfgHDwgovvSYjjz95HWLwbcm3Li2HQQPuatKsEAx1Mz"
 			]
 		}
 	},
