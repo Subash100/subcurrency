@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "becomeSeller",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sell",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"advance-error-handling2.sol": "Vendor"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"advance-error-handling2.sol": {
+			"keccak256": "0x94acfbf69cd71988e9b98769b503ed886b07fae3d411297cbd5d333b057ede98",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3f1bc5c27381b6a31f136bd67099834091e9b6c42b7a6176044c55bd1d487b46",
+				"dweb:/ipfs/QmWLvJnxQF5GeuQpDsR6SoNzRYrgeqsBzzmBnFmoKjtMAW"
+			]
+		}
+	},
+	"version": 1
+}
