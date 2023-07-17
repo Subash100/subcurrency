@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"advance-libraries2.sol": "Search"
+			"advance-libraries2.sol": "Search2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
